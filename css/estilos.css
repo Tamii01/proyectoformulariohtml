@@ -1,0 +1,80 @@
+label{
+    color: black;
+    display: block;
+    margin-bottom: 3px;
+}
+
+body{
+    margin: 0;
+    background-color: #d7ccac;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px #555;
+}
+
+#contenedor_principal{
+    margin: 10px;
+    border-radius: 40px;
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 2px 2px 2px #555;
+    background-color:#C89A5B;
+}
+
+.contenedor_campo{
+    margin-bottom: 10px;
+    border: 2px dashed black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+#Titulo{
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contenedor_boton{
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+}
+
+p{
+    margin: 0;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #D2A079;
+
+}
+
+span{
+    color: rgb(0, 0, 0);
+    display: inline;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+select{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #efcd96;
+}
+
+textarea{
+    height: auto;
+    background-color: #efcd96;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase cuatro html</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div id="contenedor_principal">
+        <div id="Titulo">
+            <p>INGRESE SUS DATOS</p>
+        </div>
+    <form action="https://postman-echo.com/post" method="post">
+
+    <!-- CAMPO NOMBRE -->
+    <div class="contenedor_campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre" required> 
+    </div>
+
+    <!-- CAMPO APELLIDO -->
+    <div class="contenedor_campo">
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido"> 
+    </div>
+
+    <!-- CAMPO EDAD -->
+    <div class="contenedor_campo">
+        <label for="Edad">Edad</label>
+        <input type="number" name="Edad" id="Edad" placeholder="Ingrese su Edad"> 
+    </div>
+
+    <!-- CAMPO EMAIL -->
+    <div class="contenedor_campo">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"  placeholder="Ingrese su email">
+    </div>
+
+    <!-- CAMPO CONTRASEÑA -->
+    <div class="contenedor_campo">
+        <label for="password">Clave</label> 
+        <input type="password" name="password" id="password" placeholder="Ingrese la clave"> 
+    </div>
+
+    <!-- CAMPO GÉNERO -->
+    <div class="contenedor_campo">
+        <label for="genero">Genero</label> 
+        <input type="radio" name="genero" value="femenino">  <span>Femenino</span>
+        <input type="radio" name="genero" value="masculino"> <span>Masculino</span>
+        <input type="radio" name="genero" value="otro">      <span>Otros</span> 
+    </div>
+
+    <!-- CAMPO ESTUDIO -->
+    <div class="contenedor_campo">
+        <label for="estudios">Estudios</label> 
+        <input type="checkbox" name="primaria" id="estudios" value="si">   <span>Primaria</span>
+        <input type="checkbox" name="secundaria" id="estudios" value="si"> <span>Secundaria</span>
+        <input type="checkbox" name="terciaria" id="estudios" value="si">  <span>Terciaria</span>
+        <input type="checkbox" name="Cursos" id="estudios" value="si">     <span>Cursos</span>
+    </div>
+
+    <!-- CAMPO NIVEL -->
+    <div class="contenedor_campo">
+        <label for="nivel">Nivel</label>
+        <input type="range" name="nivel" id="nivel" value="25">
+    </div>
+
+    <!-- CAMPO VEHICULO -->
+    <div class="contenedor_campo">
+        <label for="vehiculo">Vehículo</label>
+            <select name="vehiculo" id="vehiculo">
+                <option value="ford">  Ford  </option>
+                <option value="vm">  VM  </option>
+                <option value="fiat">  Fiat  </option>
+                <option value="ninguno">  Ninguno  </option>
+            </select>
+    </div>
+
+    <!-- CAMPO COLOR -->
+    <div class="contenedor_campo">
+        <label for="color">Color de tu auto</label> 
+        <input type="color" name="color">
+    </div>
+
+    <!-- CAMPO COMENTARIO -->
+    <div class="contenedor_campo">
+        <label for="comentario">Comentarios</label> 
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea> 
+    </div>
+
+    <!-- CAMPO FECHA -->
+    <div class="contenedor_campo">
+        <label for="fecha">Fecha</label> 
+            <input type="date" name="fecha" id="fecha"> 
+    </div>
+
+    <br>
+
+    <div class="contenedor_boton">
+        <input type="submit" value="enviar"> 
+    </div>
+    </form>
+    </div>
+</body>
+</html>
